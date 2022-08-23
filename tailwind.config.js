@@ -15,7 +15,8 @@ module.exports = {
           subBackground: "#402e4f",
           primary: "#dd4831",
           input: "#453b55",
-          placeholder: "#7F788D",
+          subInput: "#524a5e",
+          placeholder: "#7F788D"
         },
       },
     },
