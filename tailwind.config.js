@@ -14,9 +14,10 @@ module.exports = {
           background: "#0f0b15",
           subBackground: "#402e4f",
           primary: "#dd4831",
+          secondary: "#830ff8",
           input: "#453b55",
           subInput: "#524a5e",
-          placeholder: "#7F788D"
+          placeholder: "#7F788D",
         },
       },
     },
