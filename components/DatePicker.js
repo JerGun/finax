@@ -84,7 +84,7 @@ export default function DatePicker() {
     <div className="h-full w-full grid grid-cols-9 rounded-2xl bg-input">
       <div className="flex items-center">
         <button
-          className="h-1/2 w-1/2 flex items-center justify-center rounded-r-full bg-secondary"
+          className="h-1/2 w-1/3 flex items-center justify-center rounded-r-full bg-secondary"
           onClick={() => onPrevNext(true)}
         >
           <FontAwesomeIcon icon={faAngleLeft} />
@@ -152,7 +152,7 @@ export default function DatePicker() {
         ))}
       <div className="flex items-center justify-end">
         <button
-          className="h-1/2 w-1/2 flex items-center justify-center rounded-l-full bg-secondary"
+          className="h-1/2 w-1/3 flex items-center justify-center rounded-l-full bg-secondary"
           onClick={() => onPrevNext(false)}
         >
           <FontAwesomeIcon icon={faAngleRight} />
