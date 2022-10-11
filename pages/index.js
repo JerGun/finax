@@ -16,13 +16,13 @@ export default function Home() {
       <div className="h-5/6 w-full px-10 pt-10 space-y-5">
         <div className="flex justify-between">
           <p className="text-3xl font-bold">Overview</p>
-          <Input placeholder={"Search"} />
+          {/* <Input placeholder={"Search"} /> */}
         </div>
         <div className="h-full w-full flex space-x-5">
           <div className="h-full w-3/4 grid gap-5">
             <DatePicker />
             <div className="h-full w-full flex row-span-6 rounded-2xl bg-input">
-              <div className="h-full w-8/12 p-5">qweqwewqeqe</div>
+              <div className="h-full w-8/12 p-5">Line Chart ...</div>
               <div className="h-full w-4/12 flex flex-col items-center p-10 space-y-5">
                 <div className="h-fit w-full p-5 space-y-5 rounded-xl bg-secondary">
                   <p>Wallet Name</p>
