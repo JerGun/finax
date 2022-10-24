@@ -4,14 +4,13 @@ import Input from "../components/Input"
 import OptionCard from "../components/OptionCard"
 import RateCard from "../components/RateCard"
 
-const assetPrefix = "/JerGun"
 
 export default function Home() {
   return (
     <div className="h-screen w-screen bg-background opacity-90">
       <Head>
         <title>Finax</title>
-        <meta name="description" content="Finance Management" />
+        <meta name="description" content="Finance Management made with 💖 using Next.js and Tailwind CSS" />
       </Head>
       <div className="h-5/6 w-full px-10 pt-10 space-y-5">
         <div className="flex justify-between">

@@ -39,6 +39,10 @@ export default function DatePicker() {
   })
 
   useEffect(() => {
+    init()
+  }, [])
+
+  const init = () => {
     let tempWeek = []
     for (let i = 0; i < 7; i++) {
       let today = moment()
@@ -49,7 +53,7 @@ export default function DatePicker() {
       selectedDate: moment(),
       dayInWeek: tempWeek,
     })
-  }, [])
+  }
 
   const onDateChange = (date) => {
     let tempWeek = []
@@ -110,7 +114,7 @@ export default function DatePicker() {
                   moment(currentWeek.dayInWeek[i]).date() &&
                   !isHover.state) ||
                 (isHover.state && isHover.index == i)
-                  ? "rounded-xl bg-primary transition duration-500"
+                  ? "rounded-xl bg-primary transition duration-500 ease-in-out"
                   : ""
               } h-full flex flex-col items-center justify-center`}
             >

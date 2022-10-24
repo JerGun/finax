@@ -14,8 +14,8 @@ export default function OptionCard({ title }) {
       </div>
       <div className="h-5/6 grid grid-rows-3 gap-3 items-center">
         {[...Array(3)].map((x, i) => (
-          <div className="flex justify-between">
-            <div className="flex space-x-3 items-center" key={i}>
+          <div className="flex justify-between" key={i}>
+            <div className="flex space-x-3 items-center">
               <FontAwesomeIcon
                 icon={faHandHoldingDollar}
                 className="text-xl"
